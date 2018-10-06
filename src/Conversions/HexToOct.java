@@ -1,9 +1,11 @@
 /**
+
  + * Converts any Hexadecimal Number to Octal 
  + * 
  + * @author Tanmay Joshi
  + *
  + */
+package Conversions;
 import java.util.Scanner;
 
 public class HexToOct

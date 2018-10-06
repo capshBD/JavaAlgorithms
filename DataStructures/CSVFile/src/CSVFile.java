@@ -1,3 +1,5 @@
+package CSVFile.src;
+
 /*
  * author: Christian Bender
  * class: CSVFile
@@ -119,11 +121,11 @@ public class CSVFile {
 			System.exit(1);
 		}
 
-		try (BufferedReader br = Files.newBufferedReader(Paths.get(file.getAbsolutePath()))) {
+		/*try (BufferedReader br = Files.newBufferedReader(Paths.get(file.getAbsolutePath()))) {
 			br.lines().forEach(line -> table.add(compile(line, seperator)));
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
+		}*/
 	}
 	
 	

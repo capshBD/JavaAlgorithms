@@ -1,10 +1,12 @@
 /**
  + + * Converts any Octal Number to HexaDecimal 
+
  + + * 
  + + * @author Tanmay Joshi
  + + *
  + + *
  **/
+package Conversions;
 import java.util.Scanner;
 
 public class OctalToHexadecimal {
